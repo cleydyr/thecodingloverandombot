@@ -6,6 +6,8 @@ const TelegramBot = require('node-telegram-bot-api');
 const bot = new TelegramBot(process.env.TELEGRAM_TOKEN, {polling: true});
 
 bot.onText(/\/love/, msg => {
+  console.log('Received /love');
+  
   codingLove.getRandomEntry((error, entry) => {
     if (!!error) {
       console.error(error);
@@ -31,3 +33,5 @@ bot.onText(/\/love/, msg => {
     }
   });
 });
+
+console.log('App started');
