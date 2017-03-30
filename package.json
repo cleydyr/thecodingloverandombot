@@ -1,0 +1,23 @@
+{
+  "name": "thecodingloverandombot",
+  "version": "0.0.2",
+  "description": "thecodinglove Random Post Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "thecodinglove",
+    "entertainment",
+    "IT",
+    "gif"
+  ],
+  "author": "Cleydyr de Albuquerque",
+  "license": "ISC",
+  "dependencies": {
+    "decode-html": "^1.0.2",
+    "node-telegram-bot-api": "^0.27.0",
+    "thecodinglove_parser": "^0.1.0"
+  }
+}
