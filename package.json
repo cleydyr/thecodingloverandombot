@@ -16,9 +16,10 @@
   "author": "Cleydyr de Albuquerque",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "node-telegram-bot-api": "^0.27.0",
-    "tumblr.js": "^1.1.1"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "node-telegram-bot-api": "^0.30.0",
+    "tumblr.js": "^1.1.1",
+    "wpapi": "^1.1.2"
   }
 }
