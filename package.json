@@ -16,8 +16,8 @@
   "author": "Cleydyr de Albuquerque",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "html-entities": "^1.2.1",
     "node-telegram-bot-api": "^0.30.0",
     "wpapi": "^1.1.2"
